@@ -85,13 +85,14 @@ section > p > button:active {
 
   section > p > button {
     font-size: 20px;
-    padding: 5px 10px;
     margin: 0 10px;
+    padding: 5px 10px;
   }
 
   section > p > button:hover {
-    padding: 5px 10px;
-    margin: 0 10px;
+    font-size: 17px;
+    margin: 0 8px;
+    padding: 3px 7px;
   }
 
   .relogio {
