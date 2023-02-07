@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Open sans", sans-serif;
+  line-height: 1.5em;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    270deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 74, 121, 1) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+section > h1 {
+  font-size: 45px;
+}
+
+section > h1,
+section > h1 + p {
+  margin-bottom: 35px;
+  text-align: center;
+  font-weight: 700;
+}
+
+section > p + p {
+  text-align: center;
+}
+
+section > p > button {
+  background: #0000ff;
+  color: white;
+  margin: 0 15px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+section > p > button:hover {
+  background: #00006e;
+  margin: 0 16px;
+  padding: 11px 16px;
+}
+
+section > p > button:active {
+  background: #000020;
+}
+
+.relogio {
+  font-size: 70px;
+}
+
+.pausado {
+  color: red;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    margin: 50px 15px;
+    padding: 10px;
+  }
+
+  section > h1,
+  section > h1 + p {
+    margin-bottom: 20px;
+  }
+
+  section > p > button {
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0 10px;
+  }
+
+  .relogio {
+    font-size: 40px;
+  }
+}
