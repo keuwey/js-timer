@@ -7,7 +7,6 @@
   outline: 0;
   box-sizing: border-box;
   font-family: "Open sans", sans-serif;
-  line-height: 1.5em;
 }
 
 body {
@@ -35,7 +34,7 @@ section > h1 {
 
 section > h1,
 section > h1 + p {
-  margin-bottom: 35px;
+  margin-bottom: 60px;
   text-align: center;
   font-weight: 700;
 }
@@ -86,7 +85,7 @@ section > p > button:active {
   }
 
   section > p + p {
-    text-align: justify;
+    text-align: center;
   }
 
   section > p > button {
@@ -112,7 +111,7 @@ section > p > button:active {
 
   section > h1,
   section > h1 + p {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
 
   section > p + p {
@@ -120,9 +119,9 @@ section > p > button:active {
   }
 
   section > p > button {
-    font-size: 10px;
-    margin: 0 auto;
-    padding: 2px 4px;
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 5px 10px;
   }
 
   .relogio {
