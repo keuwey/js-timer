@@ -81,6 +81,10 @@ section > p > button:active {
     margin-bottom: 20px;
   }
 
+  section > p + p {
+    text-align: justify;
+  }
+
   section > p > button {
     font-size: 20px;
     margin: 0 10px;
@@ -103,9 +107,17 @@ section > p > button:active {
     margin-bottom: 10px;
   }
 
+  section > p + p {
+    text-align: justify;
+  }
+
   section > p > button {
     font-size: 10px;
     margin: 0 5px;
     padding: 5px 10px;
+  }
+
+  .relogio {
+    font-size: 30px;
   }
 }
