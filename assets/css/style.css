@@ -99,3 +99,27 @@ section > p > button:active {
     font-size: 40px;
   }
 }
+
+@media only screen and (max-width: 300px) {
+  .container {
+    margin: 45px 10px;
+    padding: 5px;
+  }
+
+  section > h1,
+  section > h1 + p {
+    margin-bottom: 15px;
+  }
+
+  section > p > button {
+    font-size: 15px;
+    margin: 0 10px;
+    padding: 0 10px;
+  }
+
+  section > p > button:hover {
+    font-size: 12px;
+    margin: 0 3px;
+    padding: 0 3px;
+  }
+}
